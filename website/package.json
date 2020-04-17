@@ -50,7 +50,7 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build --prefix-paths",
-    "postbuild": "echo remaxjs.org > public/CNAME",
+    "postbuild": "echo v1.remaxjs.org > public/CNAME",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d public"
   },
